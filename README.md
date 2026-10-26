@@ -1,6 +1,6 @@
 # Lucy Agenda
 
-**Lucy Agenda v1.0.0** is a small, low-resource desktop widget for Ubuntu. It combines active TickTick tasks and Google Calendar events in one resizable, movable dark-mode window.
+**Lucy Agenda v1.0.1** is a small, low-resource desktop widget for Ubuntu. It combines active TickTick tasks and Google Calendar events in one resizable, movable dark-mode window.
 
 ## What it does
 
@@ -30,9 +30,11 @@ systemctl --user enable --now lucy-ticktick-widget.service
 
 Run `setup_gui.py` once to connect TickTick. Google Calendar uses the existing GNOME Online Accounts connection.
 
+The full setup instructions are in [Installation and setup](docs/INSTALL.md). Everyday controls are in the [User guide](docs/USER_GUIDE.md). See [Maintenance](docs/MAINTENANCE.md) for updates, diagnostics and backup locations.
+
 ## Versioning
 
-Lucy Agenda uses semantic versioning. `v1.0.0` is the first public release: TickTick tasks, Google Calendar, editable events, quick-add, task controls, Focus and Today views, notifications, smooth scrolling and startup support.
+Lucy Agenda uses semantic versioning. The release history is in [CHANGELOG.md](CHANGELOG.md).
 
 ## Privacy
 

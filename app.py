@@ -23,7 +23,7 @@ import requests
 
 
 APP_ID = "lucy-ticktick-widget"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 API = "https://api.ticktick.com/open/v1"
 CONFIG_DIR = Path.home() / ".config" / APP_ID
 CONFIG_FILE = CONFIG_DIR / "config.json"
