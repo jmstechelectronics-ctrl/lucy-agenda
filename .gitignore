@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Runtime state and access tokens live outside this repository.
+config.json
+*.token

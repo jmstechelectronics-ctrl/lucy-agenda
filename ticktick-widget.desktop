@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Lucy Agenda
+Comment=Tasks and calendar events for Lucy
+Exec=/home/josh/.local/share/lucy-ticktick-widget/launch.sh
+Icon=ticktick
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5
+StartupNotify=false
+Categories=Office;
